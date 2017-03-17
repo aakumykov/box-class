@@ -8,5 +8,11 @@ import { Counter } 		   from '../counter/counter.component';
   templateUrl: './about.component.html'
 })
 export class AboutComponent {
-	public initialCount: number = 10;
+	public myCount: number = 10;
+
+	countChange(ev) {
+		console.info('AboutComponent.countChange('+ev+')');
+		this.myCount = ev;
+		console.info('this.myCount='+this.myCount);
+	}
 }
