@@ -15,6 +15,7 @@ import { RepoDetailComponent } from './github/repo-detail/repo-detail.component'
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
 import { QwertyComponent } from './qwerty/qwerty.component';
+import { Counter } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { QwertyComponent } from './qwerty/qwerty.component';
     RepoDetailComponent,
     HomeComponent,
     ContactComponent,
-    QwertyComponent
+    QwertyComponent,
+    Counter
   ],
   imports: [
     BrowserModule,
