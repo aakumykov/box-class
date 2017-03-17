@@ -1,0 +1,14 @@
+#qwerty {
+	border: 1px solid LimeGreen;
+	border-radius: 6px;
+	padding: 4px 6px;
+	background-color: PaleGreen;
+	margin-bottom: 5px;
+}
+
+* {font-weight: bold;}
+
+#title { color: Green; text-align: center; font-size: 26px; }
+#simple { color: Black; }
+#hash { color: SteelBlue; }
+#box { color: DeepPink; }
