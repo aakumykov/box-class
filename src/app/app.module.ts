@@ -16,8 +16,6 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
 import { QwertyComponent } from './qwerty/qwerty.component';
 
-import { Box } from './qwerty/box.class';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +36,6 @@ import { Box } from './qwerty/box.class';
   ],
   providers: [
     GithubService,
-    Box,
   ],
   bootstrap: [ AppComponent ]
 })
